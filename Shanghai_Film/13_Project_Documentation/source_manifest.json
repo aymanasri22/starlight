@@ -64,7 +64,8 @@
       "cues": "SH060 cue A8",
       "status": "selected",
       "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
-      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+      "file_status": "preview analysed; original WAV to download (free Freesound login)",
+      "note": "measured: continuous ringing bed, no isolated strike; preview v001 shapes the ring into a strike decay; look for a single-strike bell"
     },
     {
       "provider": "Freesound",
@@ -253,7 +254,8 @@
       "use": "string clusters / harmonics",
       "cues": "M2 (alt layer A/B only)",
       "status": "selected",
-      "file_status": "to download"
+      "file_status": "to download",
+      "note": "not downloaded yet; preview v001 uses a synthesised string cluster in its place"
     },
     {
       "id": "S15",

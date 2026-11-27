@@ -44,17 +44,20 @@ pre-lap at 7.00, the rewind hit landing on 12.50, the reversed bell into the sil
 | SH070 | 0:20.00-0:23.00 | 3.00 | FORWARD begins | `longhua_clean` → IMG_1039.mov **5.300-5.900 s** (72 fr, 5x slow) | pagoda 0.95 → 0.70; video 1.42 → 1.15, centre x 690 → 560 | descend + pull back |
 | SH080 | 0:23.00-0:27.00 | 4.00 | FORWARD | IMG_1039.mov **5.900-6.700 s** (96 fr, 5x slow; canopy-free, measured) | 1.15 → 1.00 | pull back, then the clip's own bob |
 | SH090 | 0:27.00-0:31.00 | 4.00 | HELD (client) in a moving world | IMG_1062.jpg + IMG_1039 wave field | full height → 0.745; window x0 483 | push 1.00 → 1.04; sun bloom 29.80-30.20 |
-| SH100 | 0:31.00-0:38.00 | 7.00 | FORWARD | 20261127_160211.jpg + CC0 `shanghai_bund_8k.hdr` (Pearl Tower portrait plate) + IMG_1039 wave field + CG drop | whole photo → 0.745 at start | travels along the inverted tower toward the far end: scale 1.00 → 1.80, ending with the reflected lower sphere at screen (384, 974) |
+| SH100 | 0:31.00-0:38.00 | 7.00 | FORWARD | 20261127_160211.jpg + CC0 `shanghai_bund_8k.hdr` (Pearl Tower portrait plate) + IMG_1039 wave field + CG drop | whole photo → 0.745 at start | travels along the inverted tower toward the far end: scale 1.00 → 1.80, ending with the reflected lower sphere at screen (358, 948) |
 
 Six cuts in 38 s. SH050 → SH080 is one unbroken 14.5 s movement.
 
 ### The drop and the palindrome (exact)
 - SH100: the drop enters at the top of frame at 36.05, falls (accelerating, motion-blurred) and strikes the
-  **reflected lower sphere of the Pearl Tower** at screen (384, 974) at **36.60**. Rings spread to 38.00.
+  **reflected lower sphere of the Pearl Tower** at screen (358, 948) at **36.60**. Rings spread to 38.00.
+  (Coordinates measured while building preview v001: the real sphere in IMG_1006 and the reflected sphere
+  at the end of SH100 are both centred at (358, 948); v002 first said (384, 974). The water calms from 34.40
+  to 36.00 so the inverted tower reads as a clear mirror just before the drop breaks it.)
 - SH010 0:00.00-0:01.40 = SH100 38.00 → 36.60 played backwards: the rings converge onto the reflected sphere.
 - SH010 0:01.40-0:03.00 (new, not a reversal): the drop lifts out of the surface and rises, slows and **holds**
-  at (384, 930), just above the reflected sphere: the drop refuses to fall (HELD).
-- T1 at 0:03.00: reflected sphere + drop → the real Pearl Tower sphere at (384, 974) in SH020: **sphere → drop →
+  at (358, 900), just above the reflected sphere: the drop refuses to fall (HELD).
+- T1 at 0:03.00: reflected sphere + drop → the real Pearl Tower sphere at (358, 948) in SH020: **sphere → drop →
   sphere**. No title appears in SH010. The loop seam 38.00 → 0:00.00 is frame-exact.
 
 ---

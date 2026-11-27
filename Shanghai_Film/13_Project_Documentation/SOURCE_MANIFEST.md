@@ -10,7 +10,7 @@ metadata), not from search results. Search-result pages and image search are nev
 | S01 | Flute Dizi C_091_G7.wav | Hypnotriod | [384952](https://freesound.org/people/Hypnotriod/sounds/384952/) | CC0-1.0 | THE NOTE: dizi sustained note, sounds G6 (1581.6 Hz measured), one 8.6 s breath | M4 (SH100); TH thread if option B | selected |
 | S02 | xiao-1.wav | xserra | [161912](https://freesound.org/people/xserra/sounds/161912/) | CC-BY-4.0 | Xiao phrases (low, breathy; centre G4) | SH070-SH090 cue M3 | selected |
 | S03 | 006-Erhu-F5.wav | tarane468 | [467482](https://freesound.org/people/tarane468/sounds/467482/) | CC0-1.0 | Erhu sustained F5 (697 Hz, 9.1 s), reversed, unshifted | SH030-SH040 cue M1 | selected |
-| S04 | temple bells.wav | Paresh | [423401](https://freesound.org/people/Paresh/sounds/423401/) | CC0-1.0 | Temple bell, reversed bloom into strike | SH060 cue A8 | selected |
+| S04 | temple bells.wav | Paresh | [423401](https://freesound.org/people/Paresh/sounds/423401/) | CC0-1.0 | Temple bell ring (measured: a continuous ringing bed, no isolated strike; preview v001 shapes its ring into a strike decay and reverses it) | SH060 cue A8 | selected; look for a single-strike bell |
 | S05 | Homemade Brass Wind Chimes Light Handling 04 | loganzsound | [874641](https://freesound.org/people/loganzsound/sounds/874641/) | CC0-1.0 | Brass wind chimes (pagoda eave bells) | SH050 A7, SH070 A10 | selected |
 | S06 | Drop - Water | mattfinarelli | [533146](https://freesound.org/people/mattfinarelli/sounds/533146/) | CC0-1.0 | Single water drop | SH010 A1 (reversed), SH100 A12 | selected |
 | S07 | Airplane Flyby while Landing | Kinoton | [383068](https://freesound.org/people/Kinoton/sounds/383068/) | CC0-1.0 | Aircraft fly-by, reversed | SH030 cue A4 | selected |
@@ -22,7 +22,7 @@ metadata), not from search results. Search-result pages and image search are nev
 | S11 | wind 8 | ZIP.Creates | [726319](https://freesound.org/people/ZIP.Creates/sounds/726319/) | CC0-1.0 | Wind | SH020-SH040 A3 | selected |
 | S12 | barges under bridge.wav | BeeProductive | [389411](https://freesound.org/people/BeeProductive/sounds/389411/) | CC0-1.0 | Water under a bridge (canal bed) | SH010, SH070-SH100 | selected |
 | S13 | on a wooden ship at sea.wav | LXX.70 | [91071](https://freesound.org/people/LXX.70/sounds/91071/) | CC-BY-4.0 | Wooden ship creaks (first forward sound) | SH070 cue A9 | selected |
-| S14 | VSCO 2 Community Edition (Versilian Studios) — strings | Versilian Studios (sgossner) | [link](https://github.com/sgossner/VSCO-2-CE) | CC0-1.0 | string clusters / harmonics | M2 (alt layer A/B only) | selected |
+| S14 | VSCO 2 Community Edition (Versilian Studios) — strings | Versilian Studios (sgossner) | [link](https://github.com/sgossner/VSCO-2-CE) | CC0-1.0 | string clusters / harmonics | M2 (alt layer A/B only) | selected; not downloaded yet (preview v001 uses a synthesised cluster) |
 | S15 | IMG_1039.mov own audio | client | ingested | client-owned | possible first forward sound | A9 | pending client listen |
 | S16 | A flag flapping in the wind, the wire is knocking the metal mast | felix.blume | [146272](https://freesound.org/people/felix.blume/sounds/146272/) | CC0-1.0 | Flag cloth + halyard on the mast, forward (2:00.719) | SH040 cue A5 | selected |
 | SYN | sub drones, reverse swells, rewind pulse, granular shimmer | studio (synthesised) | `studio/lib/audio.py` | original | — | SYN2, SYN4, TH freeze, alt layers | to produce |

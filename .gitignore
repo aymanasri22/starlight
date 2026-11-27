@@ -34,6 +34,7 @@ Shanghai_Film/**
 !Shanghai_Film/**/*.fcpxml
 !Shanghai_Film/**/*.cube
 !Shanghai_Film/**/*.py
+!Shanghai_Film/**/*.sh
 !Shanghai_Film/07_Motion_Graphics/remotion/**/*.ts
 !Shanghai_Film/07_Motion_Graphics/remotion/**/*.tsx
 !Shanghai_Film/07_Motion_Graphics/remotion/package.json
