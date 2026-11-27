@@ -58,12 +58,12 @@ below in the water town. Deep bass enters only when the camera breaks through a 
 water). No rhythm at all. Silence is saved for the very end.
 
 **Unexpected ending.** At the bottom of the canal the camera keeps going into the dark, and comes up out of a pair
-of sunglasses: a pull-back reveals the whole journey was the reflection in the client's lenses as he stands on the
-Zhujiajiao bridge at sunset (IMG_1091). The note stops the instant his face is revealed. The only sound left is
-the real water from his own phone.
+of sunglasses: a pull-back reveals the whole journey was the reflection in the client's lenses as they stand on the
+Zhujiajiao bridge at sunset (IMG_1091). The note stops the instant their face is revealed. The only sound left is
+the real water from their own phone.
 
 **Integration of real media.** Every location is a real photo given depth and moved through; the client appears
-twice as real, unaltered pixels (IMG_1006 at the river, IMG_1091 at the reveal). The reflection in his lenses is
+twice as real, unaltered pixels (IMG_1006 at the river, IMG_1091 at the reveal). The reflection in their lenses is
 composited onto the glass only, never the face.
 
 **Needs and risks.** Vertical travel needs extra image above and below each photo (AI outpainting of sky, ground,
@@ -84,7 +84,7 @@ the surface in slow motion. The first frame is already backwards; the viewer fee
 
 **Progression.**
 1. *Now.* The rising drop becomes the Pearl Tower's sphere (circle match) and reveals the client at the river
-   (IMG_1006, un-mirrored). He is still; the world behind him moves in reverse.
+   (IMG_1006, un-mirrored). They are still; the world behind them moves in reverse.
 2. *The Bund.* Flags ripple backwards (IMG_1750); an aircraft flies tail-first across the empty sky (IMG_1009);
    the red-brick Peace Hotel (IMG_1015). Image texture ages as we go back: more grain, softer, warmer.
 3. *The hinge: Longhua.* Behind the pagoda the cranes lift the half-built towers away floor by floor (reverse
@@ -92,7 +92,7 @@ the surface in slow motion. The first frame is already backwards; the viewer fee
    absolute silence.
 4. *The water town.* The pagoda's tiers match-cut to the Zhujiajiao pavilion's tiers (IMG_1039), and time turns
    forward: the 120 fps boat footage plays forward in deep slow motion. The client on the bridge, the sun directly
-   above his head (IMG_1062).
+   above their head (IMG_1062).
 
 **Soundtrack strategy: a reverse-time score.** Everything heard in the first half is reversed: swells that inhale
 instead of decay, a reversed bell, reversed crowds. A bass impact lands on every "unbuilding". Silence at the
@@ -106,7 +106,7 @@ frame played forward: the film is a perfect palindrome loop on Reels and TikTok.
 
 **Integration of real media.** IMG_0909 is the centrepiece; IMG_1039 carries the second half; IMG_1006, IMG_1062
 (and IMG_1091 as alternate) are the client, always real pixels: matted, parallaxed, never generated or redrawn.
-His stillness in photographs becomes the meaning of the film rather than a limitation.
+Their stillness in photographs becomes the meaning of the film rather than a limitation.
 
 **Needs.** Mostly the tested local pipeline: depth parallax, mattes, sky inpainting behind the pagoda, per-floor
 animated reveal masks, reverse playback, the drop (local CGI/2D), the reflection composite from the licensed HDRI,
@@ -125,7 +125,7 @@ geography that exists only in memory, while day becomes golden hour becomes nigh
 pavilion, the oar dips, golden light. Immediate immersion, real motion from frame one.
 
 **Progression.** Each oar stroke is a cut. The canal widens (AI) into the Huangpu; the Bund's facades slide past
-along the bank (the client's photos projected onto 3D cards along a CGI riverbank); his Bund portrait passes as if
+along the bank (the client's photos projected onto 3D cards along a CGI riverbank); their Bund portrait passes as if
 seen from the water; the Longhua Pagoda rises above trees on the bank; night falls on the journey.
 
 **Soundtrack strategy: rhythm-led.** The sculling oar's creak and splash become the tempo (about 52 BPM). Low drum
@@ -133,26 +133,26 @@ and wooden percussion grow out of it; dizi and erhu trade phrases call-and-respo
 high note appears three times, once at each crossing into a new place, like a call; bass impacts on arrivals.
 
 **Unexpected ending.** The boat glides toward a stone bridge. The client is standing on it, looking down into the
-camera (IMG_1062), and lifts a hand. The camera's point of view was his own: he has been watching himself the whole
+camera (IMG_1062), and lifts a hand. The camera's point of view was their own: they have been watching themselves the whole
 time. The boat enters the bridge's shadow; black; a single oar splash.
 
 **Integration and risks.** Heaviest dependence on paid AI (impossible-river establishing shots, water transitions,
 night river) and on continuity of water and boats across generated shots. The bridge reveal needs a plate looking
-up from the water; his photo is at eye level, so the angle will not match without a new photograph. Most
+up from the water; their photo is at eye level, so the angle will not match without a new photograph. Most
 expensive and least controllable.
 
 ---
 
 ## Recommendation: Concept 2, AGAINST THE CURRENT
 
-1. **Built on the client's strongest real image.** IMG_0909 already contains "between time": the title is in his
+1. **Built on the client's strongest real image.** IMG_0909 already contains "between time": the title is in their
    own photograph, not in a generated one.
 2. **A rule readable in one second.** Things move backwards. That is the hook for vertical platforms, and the
    palindrome loop ending rewards replays.
 3. **Restraint in music.** The haunting high note is held back until the end, so it lands with full force; the
    first half is texture and inhaled sound, the hinge is silence. This follows the brief's warning that more
    music does not mean more emotion.
-4. **Identity is never at risk.** The client is never generated or redrawn. Having stills instead of video of him
+4. **Identity is never at risk.** The client is never generated or redrawn. Having stills instead of video of them
    becomes the concept: the one still thing in moving time.
 5. **Feasible at high quality.** Roughly 80% runs on the tested local pipeline; paid AI is optional and limited to
    background motion.
@@ -167,7 +167,7 @@ forward sound (Concept 3).
 | Shot | Time | Picture | Source | Technique |
 |---|---|---|---|---|
 | SH010 | 0:00.00-0:02.50 | Dark water; ripples converge; a drop rises toward camera | 20261127_160211 (water) | Depth parallax on the real canal + local CGI drop + reversed ripple displacement |
-| SH020 | 0:02.50-0:06.00 | Drop fills frame → Pearl Tower sphere → reveal the client, still; river and clouds behind him move in reverse | IMG_1006 (un-mirrored) | Circle match cut; client matted (real pixels); background parallax, optional AI background motion reversed |
+| SH020 | 0:02.50-0:06.00 | Drop fills frame → Pearl Tower sphere → reveal the client, still; river and clouds behind them move in reverse | IMG_1006 (un-mirrored) | Circle match cut; client matted (real pixels); background parallax, optional AI background motion reversed |
 | SH030 | 0:06.00-0:08.50 | Bund facades, flags rippling backwards, slow push up the clock tower | IMG_1750 | Parallax; flag motion (local mesh-warp or AI, reversed) |
 | SH040 | 0:08.50-0:10.50 | Empty blue sky; the aircraft flies tail-first; the flag | IMG_1009 | Aircraft cut out and moved in reverse with motion blur (local) |
 | SH050 | 0:10.50-0:12.00 | Peace Hotel facade, grain and softness increasing (time ageing) | IMG_1015 (alt IMG_1008) | Parallax + texture ramp |
@@ -175,7 +175,7 @@ forward sound (Concept 3).
 | SH070 | 0:17.00-0:19.50 | The pagoda alone; tilt up to the gold finial; a bell on the eaves | IMG_0909 clean plate | Parallax tilt; bell micro-motion |
 | SH080 | 0:19.50-0:21.00 | Pagoda tiers → pavilion tiers; time turns forward | IMG_0909 → IMG_1039 @ 5.9 s | Match cut on eaves; footage forward at 5x slow motion |
 | SH090 | 0:21.00-0:25.50 | The sculling boat crosses before the pavilion, deep slow motion | IMG_1039 | 120 fps conformed to 24 fps; canopy edge cropped |
-| SH100 | 0:25.50-0:30.00 | The client on the bridge, sun above his head; the river behind now flows forward | IMG_1062 (alt IMG_1091) | Matte + parallax; flare ghost cleaned; Live Photo if available |
+| SH100 | 0:25.50-0:30.00 | The client on the bridge, sun above their head; the river behind now flows forward | IMG_1062 (alt IMG_1091) | Matte + parallax; flare ghost cleaned; Live Photo if available |
 | SH110 | 0:30.00-0:31.00 | The sun blooms to white | IMG_1062 | Highlight bloom |
 | SH120 | 0:31.00-0:36.50 | Tilt down into the canal; Lujiazui at night shimmers in the reflection; title rises in the reflection | 20261127_160211 + CC0 `shanghai_bund` HDRI | Reflection composite with displacement from the real water; Remotion title (EN + 中文) |
 | SH130 | 0:36.50-0:38.00 | A drop falls into the reflection; ripples spread → loops to SH010 | same | Forward version of SH010 (palindrome) |

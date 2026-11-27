@@ -1,0 +1,432 @@
+{
+  "project": "SHANGHAI: BETWEEN TIME",
+  "updated": "2026-11-27",
+  "audio": [
+    {
+      "provider": "Freesound",
+      "freesound_id": 384952,
+      "title": "Flute Dizi C_091_G7.wav",
+      "author": "Hypnotriod",
+      "url": "https://freesound.org/people/Hypnotriod/sounds/384952/",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licence": "CC0-1.0",
+      "duration": "0:08.741",
+      "id": "S01",
+      "use": "THE NOTE: dizi sustained note, sounds G6 (1581.6 Hz measured), one 8.6 s breath",
+      "cues": "M4 (SH100); TH thread if option B",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 161912,
+      "title": "xiao-1.wav",
+      "author": "xserra",
+      "url": "https://freesound.org/people/xserra/sounds/161912/",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence": "CC-BY-4.0",
+      "duration": "0:35.686",
+      "id": "S02",
+      "use": "Xiao phrases (low, breathy; centre G4)",
+      "cues": "SH070-SH090 cue M3",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 467482,
+      "title": "006-Erhu-F5.wav",
+      "author": "tarane468",
+      "url": "https://freesound.org/people/tarane468/sounds/467482/",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licence": "CC0-1.0",
+      "duration": "0:09.298",
+      "id": "S03",
+      "use": "Erhu sustained F5 (697 Hz, 9.1 s), reversed, unshifted",
+      "cues": "SH030-SH040 cue M1",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 423401,
+      "title": "temple bells.wav",
+      "author": "Paresh",
+      "url": "https://freesound.org/people/Paresh/sounds/423401/",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licence": "CC0-1.0",
+      "duration": "1:22.731",
+      "id": "S04",
+      "use": "Temple bell, reversed bloom into strike",
+      "cues": "SH060 cue A8",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 874641,
+      "title": "Homemade Brass Wind Chimes Light Handling 04",
+      "author": "loganzsound",
+      "url": "https://freesound.org/people/loganzsound/sounds/874641/",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licence": "CC0-1.0",
+      "duration": "0:42.477",
+      "id": "S05",
+      "use": "Brass wind chimes (pagoda eave bells)",
+      "cues": "SH050 A7, SH070 A10",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 533146,
+      "title": "Drop - Water",
+      "author": "mattfinarelli",
+      "url": "https://freesound.org/people/mattfinarelli/sounds/533146/",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licence": "CC0-1.0",
+      "duration": "0:00.626",
+      "id": "S06",
+      "use": "Single water drop",
+      "cues": "SH010 A1 (reversed), SH100 A12",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 383068,
+      "title": "Airplane Flyby while Landing",
+      "author": "Kinoton",
+      "url": "https://freesound.org/people/Kinoton/sounds/383068/",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licence": "CC0-1.0",
+      "duration": "1:45.775",
+      "id": "S07",
+      "use": "Aircraft fly-by, reversed",
+      "cues": "SH030 cue A4",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 428086,
+      "title": "Airplane, Boeing, Flyby, Right to Left, A.wav",
+      "author": "InspectorJ",
+      "url": "https://freesound.org/people/InspectorJ/sounds/428086/",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence": "CC-BY-4.0",
+      "duration": "0:47.916",
+      "id": "S07b",
+      "use": "Aircraft fly-by (alternate, higher fidelity)",
+      "cues": "SH030 alternate",
+      "status": "alternate",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 412145,
+      "title": "Film Projector - Long Run with Finish",
+      "author": "Stefan021",
+      "url": "https://freesound.org/people/Stefan021/sounds/412145/",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licence": "CC0-1.0",
+      "duration": "1:39.744",
+      "id": "S08",
+      "use": "Film projector texture",
+      "cues": "none (was SH040 A5; film-ageing cliché removed)",
+      "status": "dropped in plan v002",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 846247,
+      "title": "Distant street traffic little honking",
+      "author": "erosax",
+      "url": "https://freesound.org/people/erosax/sounds/846247/",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licence": "CC0-1.0",
+      "duration": "0:56.005",
+      "id": "S09",
+      "use": "Distant street traffic (city bed for the Bund)",
+      "cues": "SH020-SH040 cue A2",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 438134,
+      "title": "G16-10-Factory-Pounding Metal.wav",
+      "author": "craigsmith",
+      "url": "https://freesound.org/people/craigsmith/sounds/438134/",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licence": "CC0-1.0",
+      "duration": "1:13.852",
+      "id": "S10",
+      "use": "Pounding metal (unbuilding thuds), reversed",
+      "cues": "SH050 cue A6",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 479555,
+      "title": "R16-24-Construction Site Ambience.wav",
+      "author": "craigsmith",
+      "url": "https://freesound.org/people/craigsmith/sounds/479555/",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licence": "CC0-1.0",
+      "duration": "0:48.339",
+      "id": "S10b",
+      "use": "Construction site ambience (texture)",
+      "cues": "SH050 alternate layer",
+      "status": "alternate",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 726319,
+      "title": "wind 8",
+      "author": "ZIP.Creates",
+      "url": "https://freesound.org/people/ZIP.Creates/sounds/726319/",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licence": "CC0-1.0",
+      "duration": "0:12.834",
+      "id": "S11",
+      "use": "Wind",
+      "cues": "SH020-SH040 A3",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 389411,
+      "title": "barges under bridge.wav",
+      "author": "BeeProductive",
+      "url": "https://freesound.org/people/BeeProductive/sounds/389411/",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licence": "CC0-1.0",
+      "duration": "1:53.653",
+      "id": "S12",
+      "use": "Water under a bridge (canal bed)",
+      "cues": "SH010, SH070-SH100",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 91071,
+      "title": "on a wooden ship at sea.wav",
+      "author": "LXX.70",
+      "url": "https://freesound.org/people/LXX.70/sounds/91071/",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence": "CC-BY-4.0",
+      "duration": "3:20.000",
+      "id": "S13",
+      "use": "Wooden ship creaks (first forward sound)",
+      "cues": "SH070 cue A9",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "id": "S14",
+      "provider": "GitHub",
+      "title": "VSCO 2 Community Edition (Versilian Studios) — strings",
+      "author": "Versilian Studios (sgossner)",
+      "url": "https://github.com/sgossner/VSCO-2-CE",
+      "licence": "CC0-1.0",
+      "licence_verified": "repository licence metadata (GitHub API), 2026-11-27",
+      "use": "string clusters / harmonics",
+      "cues": "M2 (alt layer A/B only)",
+      "status": "selected",
+      "file_status": "to download"
+    },
+    {
+      "id": "S15",
+      "provider": "client",
+      "title": "IMG_1039.mov own audio track",
+      "author": "client",
+      "licence": "client-owned",
+      "use": "possible first forward sound",
+      "cues": "A9 (if suitable)",
+      "status": "pending client listen",
+      "file_status": "ingested"
+    },
+    {
+      "id": "S16",
+      "title": "A flag flapping in the wind, the wire is knocking the metal mast",
+      "author": "felix.blume",
+      "provider": "Freesound",
+      "freesound_id": 146272,
+      "url": "https://freesound.org/people/felix.blume/sounds/146272/",
+      "licence": "CC0-1.0",
+      "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "duration": "2:00.719",
+      "use": "Flag cloth and halyard knocking on the mast, forward",
+      "cues": "SH040 cue A5",
+      "status": "selected",
+      "file_status": "found via Freesound API listing; original WAV to download (free Freesound login)"
+    }
+  ],
+  "visual": [
+    {
+      "id": "V01",
+      "provider": "Poly Haven",
+      "title": "shanghai_bund HDRI (8k, 4k)",
+      "author": "Poly Haven",
+      "url": "https://polyhaven.com/a/shanghai_bund",
+      "licence": "CC0-1.0",
+      "licence_verified": "Poly Haven API + asset page; MD5 checked on download, 2026-11-27",
+      "use": "night Lujiazui reflection plate (SH100, SH010); a real photograph",
+      "status": "selected",
+      "file_status": "downloaded"
+    }
+  ],
+  "generative_ai": [],
+  "client_media": [
+    {
+      "file": "IMG_1006.jpg",
+      "use": "SH020 (un-mirrored)"
+    },
+    {
+      "file": "IMG_1009.jpg",
+      "use": "SH030"
+    },
+    {
+      "file": "IMG_1750.jpg",
+      "use": "SH040"
+    },
+    {
+      "file": "IMG_0909.jpg",
+      "use": "SH050-SH070 (clean plate derived)"
+    },
+    {
+      "file": "IMG_1039.mov",
+      "use": "SH070-SH080 picture; SH100 wave field; possibly audio"
+    },
+    {
+      "file": "IMG_1062.jpg",
+      "use": "SH090"
+    },
+    {
+      "file": "20261127_160211.jpg",
+      "use": "SH100, SH010"
+    },
+    {
+      "file": "IMG_1091.jpg",
+      "use": "alternate for SH090"
+    },
+    {
+      "file": "IMG_1008.jpg",
+      "use": "alternate for SH040"
+    },
+    {
+      "file": "IMG_1015.jpg",
+      "use": "not used (cut for focus)"
+    },
+    {
+      "file": "IMG_1020.jpg",
+      "use": "not used"
+    },
+    {
+      "file": "50400954-A1B7-4845-8AB6-101ACB2ED703.jpg",
+      "use": "not used"
+    },
+    {
+      "file": "833C8D38-9C45-4DA6-A209-543C4AF20D34.jpg",
+      "use": "not used (other people's faces)"
+    }
+  ],
+  "rejected": [
+    {
+      "freesound_id": 328971,
+      "title": "fraseXiao.wav",
+      "reason": "CC-BY-NC (non-commercial): excluded for public platforms"
+    },
+    {
+      "freesound_id": 115582,
+      "title": "stretched_flute_3 (and #115580/115581/115579)",
+      "reason": "CC-BY-NC: excluded"
+    },
+    {
+      "freesound_id": 754129,
+      "title": "Forbidden City",
+      "reason": "CC-BY-NC: excluded"
+    },
+    {
+      "freesound_id": 863893,
+      "title": "Ethereal flute",
+      "reason": "measured A3 with large glides; not a verified xiao/dizi"
+    },
+    {
+      "freesound_id": 384953,
+      "title": "Flute Dizi C_080_G#6 (and 384954)",
+      "reason": "~180-cent glides: pitch-shifted or bent semitone files"
+    }
+  ],
+  "attribution_required": [
+    {
+      "provider": "Freesound",
+      "freesound_id": 161912,
+      "title": "xiao-1.wav",
+      "author": "xserra",
+      "url": "https://freesound.org/people/xserra/sounds/161912/",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence": "CC-BY-4.0",
+      "duration": "0:35.686",
+      "id": "S02",
+      "use": "Xiao phrases (low, breathy; centre G4)",
+      "cues": "SH070-SH090 cue M3",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 428086,
+      "title": "Airplane, Boeing, Flyby, Right to Left, A.wav",
+      "author": "InspectorJ",
+      "url": "https://freesound.org/people/InspectorJ/sounds/428086/",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence": "CC-BY-4.0",
+      "duration": "0:47.916",
+      "id": "S07b",
+      "use": "Aircraft fly-by (alternate, higher fidelity)",
+      "cues": "SH030 alternate",
+      "status": "alternate",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    },
+    {
+      "provider": "Freesound",
+      "freesound_id": 91071,
+      "title": "on a wooden ship at sea.wav",
+      "author": "LXX.70",
+      "url": "https://freesound.org/people/LXX.70/sounds/91071/",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "licence": "CC-BY-4.0",
+      "duration": "3:20.000",
+      "id": "S13",
+      "use": "Wooden ship creaks (first forward sound)",
+      "cues": "SH070 cue A9",
+      "status": "selected",
+      "licence_verified": "licence URL read from the sound's own Freesound page, 2026-11-27",
+      "file_status": "preview analysed; original WAV to download (free Freesound login)"
+    }
+  ]
+}

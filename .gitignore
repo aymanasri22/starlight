@@ -50,6 +50,7 @@ Shanghai_Film/07_Motion_Graphics/remotion/out/
 Shanghai_Film/**/node_modules/
 # licence record is committed; the media catalogue (GPS, times, filenames) never is
 !Shanghai_Film/13_Project_Documentation/asset_licences.json
+!Shanghai_Film/13_Project_Documentation/source_manifest.json
 # studio scratch outputs
 studio/tests/out/
 __pycache__/

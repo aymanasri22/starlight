@@ -1,9 +1,18 @@
 # Shot list (single source of truth)
 
-> Empty until the treatment is approved. Maintained by the Film Director; every department updates its columns.
+Film: SHANGHAI: BETWEEN TIME, Concept 2 "Against the Current" (逆流). Plan: `00_Project_Direction/PRODUCTION_PLAN_v002.md`
+(v001 superseded). 38.00 s, 1080x1920, 24 fps. Status legend: `planned` → `in-progress` → `review` → `approved` → `final`.
+Nothing is in production: every shot waits for the client's approval of plan v002 and STORYBOARD_v002.
 
-| Shot | Beat | Source media | Technique | Framing / lens | Move | Dur (s) | In / Out | Sound | Client in shot? | Paid gen? | Owner | Status |
+| Shot | Beat | Source media | Technique | Framing / scale | Move | Dur (s) | In / Out | Sound (cues) | Client in shot? | Paid gen? | Owner | Status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-
-Techniques: `real-video`, `photo-hold`, `photo-parallax`, `layered-parallax`, `cgi`, `cgi-integration`,
-`ai-i2v`, `ai-extension`, `motion-graphic`, `map`. Status: `planned`, `in-progress`, `review`, `approved`, `final`.
+| SH010 | The drop (REVERSE → HELD): rings converge, the drop lifts and refuses to fall | SH100 comp 36.60-38.00 reversed + new drop hold at (384, 930) | composite + CG drop | SH100 final framing | locked | 3.00 | loop seam / T1 sphere → drop → sphere | TH, A1, A1b | no | no | cgi-vfx-artist | planned |
+| SH020 | The fixed point (HELD) | IMG_1006 un-mirrored (client approval) | layered parallax, 3 layers: client, lamp-post, river/skyline (real pixels) | scale 0.745, x0 0→483 | truck R from the Pearl sphere to the client + push 1.00→1.06 | 4.50 | T1 / eyeline cut | TH, A2, A3, A4 pre-lap from 7.00 | **yes** | no | cinematographer + cgi-vfx-artist | planned |
+| SH030 | The retreating aircraft (REVERSE, aircraft only) | IMG_1009 | photo parallax + 2D comp | scale 0.952, x0 0 | push 1.00→1.25 toward the aircraft | 3.00 | eyeline cut / cut on movement | TH, A2, A3, A4, M1 | no | no | cgi-vfx-artist | planned |
+| SH040 | The Bund holds its breath (HELD picture, living sound) | IMG_1750 | photo parallax; **no film ageing** | scale 0.960 | tilt up + push 1.00→1.08 to the clock tower | 2.00 | cut / hard cut T4 | TH, A2 fade, A5 flag (S16), SYN2 lead-in | no | no | cinematographer | planned |
+| SH050 | Unbuilding (REVERSE) | IMG_0909 + unbuild layers | 2D integration, floor-step cut line | scale 0.952, x0 263 | push 1.00→1.05 | 5.50 | T4 / continuous | TH, A6, M2, A7 | no | no | cgi-vfx-artist | planned |
+| SH060 | The pagoda alone (HELD) + silence | `longhua_clean` = SH050's last frame | photo parallax | scale 0.952 | tilt down src y 600→880 | 2.00 | continuous | TH, A8 hinge, **S1 silence 19.50-20.00** | no | no | cinematographer | planned |
+| SH070 | Pagoda → pavilion (signature; FORWARD begins) | `longhua_clean` → IMG_1039 5.300-5.900 s | reflection-led morph: TPS + SDF + rising waterline + thin mist | pagoda 0.95→0.70; video 1.42→1.15, centre x 690→560 | descend + pull back | 3.00 | continuous | TH, A9, A10, M3, SYN4 | no | no (OPT-1 optional, paid) | cgi-vfx-artist | planned; middle ~0.5 s not yet at the brief |
+| SH080 | The crossing (FORWARD, 5x slow) | IMG_1039 5.900-6.700 s (canopy-free) | real video, 120 fps conform | 1.15→1.00 | pull back, then the clip's own bob | 4.00 | continuous / cut on oar | TH, A9, M3, SYN4 | no | no | video-editor | planned |
+| SH090 | The witness (HELD) in a moving world → sun bloom | IMG_1062 (alt IMG_1091) + IMG_1039 wave field | layered parallax (2 layers) + canal flow behind the client | scale 0.745, x0 483 | push 1.00→1.04 | 4.00 | cut / bloom with image trace 29.80-30.20 | TH stop 30.20, M3 tail, SYN4 out, **S2 silence 30.20-31.00** | **yes** | no | cinematographer + colorist | planned |
+| SH100 | The reflection + THE NOTE + title (FORWARD) | 20261127_160211 + CC0 `shanghai_bund_8k.hdr` (Pearl Tower portrait plate) + IMG_1039 wave field + CG drop | 2D integration + motion graphic (title 35.00-36.40) | 0.745 → camera 1.00→1.80 along the inverted tower | travel to the reflected lower sphere at screen (384, 974) | 7.00 | fade from white / drop strike 36.60 / loop | **M4 THE NOTE** 31.00-38.00, A11, A12 (alt layers A/B only) | no | no | cgi-vfx-artist + motion-designer + sound-designer | planned |
