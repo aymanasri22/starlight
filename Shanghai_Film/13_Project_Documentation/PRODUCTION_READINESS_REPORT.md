@@ -249,7 +249,9 @@ Evidence: `02_depth_parallax.jpg`, `04_identity_gate.jpg`, `05_matte_composite.j
 3. **Identity references:** 5-10 clear photos of your face from the Shanghai period.
 4. **Paid services:** whether to set up fal or Replicate (and a budget ceiling), and how you want to
    license music.
-5. **Environment setup script:** approve saving the toolchain install to this cloud environment so
-   future sessions start ready (you will see an approval prompt).
+5. **Environment setup script:** saved to your cloud environment "mobile start" with your approval on
+   2026-11-27. It reinstalls the toolchain (about 1 minute, checksum-verified) when a fresh container
+   starts, only for this repository. Its commands were tested here in a throwaway prefix; the first fresh
+   session will be its real proof (if anything fails, run `bash studio/bootstrap.sh`).
 6. **Creative direction:** when you are ready, we start with your memories of Shanghai, the people and
    moments that matter, and the feeling the film should leave behind.

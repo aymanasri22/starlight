@@ -49,6 +49,12 @@ larger companies need a company licence (remotion.pro).
   - `cinematic-director` from github.com/wuwangzhang1216/DirectorSKILL @ c65ae0d (MIT), see UPSTREAM.md
 - Pre-existing plugin skills used by the studio (not installed by me): `remotion:*`, `motion-reel`.
 - No MCP servers were added. No API keys or credentials were created, stored or requested.
+
+## Cloud environment
+- Environment "mobile start" (personal): setup script added with the client's approval. It mirrors
+  `studio/bootstrap.sh` (apt packages, FFmpeg 9.0 BtbN with SHA-256 check, Blender 5.2.5 LTS with
+  SHA-256 check, studio venv, models, Remotion npm install), runs only when the starlight repo is
+  present, and never fails the session start. Network policy unchanged (unrestricted).
 - `.gitignore`: blocks all media under `Shanghai_Film/` (this repository is public).
 
 ## Assets downloaded (logged in asset_licences.json)
