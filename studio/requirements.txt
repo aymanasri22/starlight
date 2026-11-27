@@ -1,0 +1,38 @@
+# Studio Python environment (Python 3.12, CPU-only). Installed into /opt/studio/venv.
+# Core numerics / imaging
+numpy
+scipy
+pillow
+opencv-contrib-python-headless   # includes YuNet/SFace face models API, dnn_superres, ximgproc
+scikit-image
+# Video I/O and editing
+av                               # PyAV (FFmpeg bindings)
+imageio[ffmpeg]
+moviepy
+scenedetect                      # PySceneDetect: shot boundary detection on ingest
+# Timeline interchange (Resolve / Premiere / FCP)
+opentimelineio
+otio-cmx3600-adapter             # EDL
+otio-fcpx-xml-adapter            # FCPXML (Resolve imports)
+otio-fcp-adapter                 # FCP7 XML (Premiere / Resolve)
+# Color science
+colour-science
+opencolorio
+OpenImageIO
+# Audio
+librosa
+soundfile
+pyloudnorm
+pedalboard                       # Spotify: EQ / comp / reverb / limiter
+# AI (local, CPU)
+onnxruntime
+rembg                            # background removal / person matting (ONNX)
+huggingface_hub
+# Cloud generation clients (no keys configured; pay-per-use, require approval)
+fal-client
+replicate
+# Utilities
+matplotlib
+tqdm
+requests
+shapely                          # map / OSM geometry for animated maps

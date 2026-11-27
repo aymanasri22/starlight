@@ -19,3 +19,37 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# ---------------------------------------------------------------------------
+# Creative studio. THIS REPOSITORY IS PUBLIC: personal photos, videos, audio,
+# identity references, renders and AI generations must never be committed.
+# Everything under Shanghai_Film/ is ignored except text project files.
+# ---------------------------------------------------------------------------
+Shanghai_Film/**
+!Shanghai_Film/**/
+!Shanghai_Film/**/.gitkeep
+!Shanghai_Film/**/*.md
+!Shanghai_Film/**/*.otio
+!Shanghai_Film/**/*.edl
+!Shanghai_Film/**/*.fcpxml
+!Shanghai_Film/**/*.cube
+!Shanghai_Film/**/*.py
+!Shanghai_Film/07_Motion_Graphics/remotion/**/*.ts
+!Shanghai_Film/07_Motion_Graphics/remotion/**/*.tsx
+!Shanghai_Film/07_Motion_Graphics/remotion/package.json
+!Shanghai_Film/07_Motion_Graphics/remotion/package-lock.json
+!Shanghai_Film/07_Motion_Graphics/remotion/tsconfig.json
+!Shanghai_Film/07_Motion_Graphics/remotion/remotion.config.ts
+# identity references stay local even if they are text
+Shanghai_Film/00_Project_Direction/identity_reference/**
+!Shanghai_Film/00_Project_Direction/identity_reference/README.md
+# synthetic pipeline-test evidence only (no personal media ever goes here)
+!Shanghai_Film/13_Project_Documentation/pipeline_test/**
+Shanghai_Film/07_Motion_Graphics/remotion/out/
+# re-ignore dependency trees that the directory whitelist above would otherwise re-include
+Shanghai_Film/**/node_modules/
+# licence record is committed; the media catalogue (GPS, times, filenames) never is
+!Shanghai_Film/13_Project_Documentation/asset_licences.json
+# studio scratch outputs
+studio/tests/out/
+__pycache__/

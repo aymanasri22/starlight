@@ -1,0 +1,71 @@
+{
+  "file": "/home/user/starlight/studio/tests/out/deliver/test_hd_h264.mp4",
+  "overall": "PASS",
+  "checks": [
+    {
+      "check": "video stream",
+      "status": "PASS",
+      "detail": "h264"
+    },
+    {
+      "check": "frame rate",
+      "status": "PASS",
+      "detail": "24.000 fps, CFR"
+    },
+    {
+      "check": "resolution",
+      "status": "PASS",
+      "detail": "1920x1080"
+    },
+    {
+      "check": "colour tags",
+      "status": "PASS",
+      "detail": "bt709/bt709/bt709"
+    },
+    {
+      "check": "pixel format",
+      "status": "PASS",
+      "detail": "yuv420p"
+    },
+    {
+      "check": "square pixels",
+      "status": "PASS",
+      "detail": "SAR 1:1"
+    },
+    {
+      "check": "audio sample rate",
+      "status": "PASS",
+      "detail": "48000"
+    },
+    {
+      "check": "integrated loudness",
+      "status": "PASS",
+      "detail": "-14.0 LUFS (target -14.0)"
+    },
+    {
+      "check": "true peak",
+      "status": "PASS",
+      "detail": "-3.1 dBTP (ceiling -1.0)"
+    },
+    {
+      "check": "loudness range",
+      "status": "PASS",
+      "detail": "0.9 LU"
+    },
+    {
+      "check": "A/V duration",
+      "status": "PASS",
+      "detail": "video 11.000s, audio 11.000s"
+    },
+    {
+      "check": "black frames",
+      "status": "PASS",
+      "detail": "0 segments"
+    },
+    {
+      "check": "frozen frames",
+      "status": "PASS",
+      "detail": "0 segments"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+TITLE: pipeline_test_seq
+
+001  clipAtit V     C        00:00:00:00 00:00:03:00 00:00:00:00 00:00:03:00
+* FROM CLIP NAME:  clip_A_titled
+* FROM CLIP: file:///home/user/starlight/studio/tests/out/clip_A_titled.mov
+* OTIO TRUNCATED REEL NAME FROM: clip_A_titled.mov
+002  clipCsta V     C        00:00:00:07 00:00:02:19 00:00:03:00 00:00:05:12
+* FROM CLIP NAME:  clip_C_stab
+* FROM CLIP: file:///home/user/starlight/studio/tests/out/clip_C_stab.mp4
+* OTIO TRUNCATED REEL NAME FROM: clip_C_stab.mp4
+003  clipCsta V     C        00:00:02:19 00:00:02:19 00:00:05:12 00:00:05:12
+003  clipDsdr V     D 012    00:00:00:00 00:00:02:12 00:00:05:12 00:00:08:00
+* FROM CLIP NAME:  clip_C_stab
+* FROM CLIP: file:///home/user/starlight/studio/tests/out/clip_C_stab.mp4
+* OTIO TRUNCATED REEL NAME FROM: clip_C_stab.mp4
+* TO CLIP NAME:  clip_D_sdr
+* TO CLIP: file:///home/user/starlight/studio/tests/out/clip_D_sdr.mov
+* OTIO TRUNCATED REEL NAME FROM: clip_D_sdr.mov
+004  IMG0002M V     C        00:00:00:00 00:00:03:00 00:00:08:00 00:00:11:00
+* FROM CLIP NAME:  IMG_0002
+* FROM CLIP: file:///home/user/starlight/studio/tests/out/film_sandbox/02_Original_Videos/IMG_0002.MP4
+* OTIO TRUNCATED REEL NAME FROM: IMG_0002.MP4

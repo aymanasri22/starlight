@@ -1,0 +1,291 @@
+{
+  "environment": {
+    "host": "Linux-6.18.44-fc-v880-x86_64-with-glibc2.39",
+    "cpu_threads": 4,
+    "python": "3.12.3",
+    "ffmpeg": "ffmpeg version n9.0.2-982-g836df4e858-20261126 Copyright (c) 2000-2026 the FFmpeg developers",
+    "blender": "Blender 5.2.5 LTS",
+    "date": "2026-11-27 10:52 UTC"
+  },
+  "stages": [
+    {
+      "stage": "synth",
+      "title": "Generate harmless sample media (camera-card simulation)",
+      "status": "PASS",
+      "wall_seconds": 21.8,
+      "notes": [
+        "photo 3000x2000 + EXIF/GPS (the Bund)",
+        "vertical 1080x1920@60 H.264",
+        "shaky handheld 1080p30",
+        "HLG BT.2020 10-bit HEVC (iPhone-style)",
+        "truncated/corrupt clip"
+      ],
+      "files": [
+        "IMG_0001.jpg",
+        "IMG_0002.MP4",
+        "IMG_0003.MOV",
+        "IMG_0004.MOV",
+        "IMG_0005.MOV"
+      ]
+    },
+    {
+      "stage": "ingest",
+      "title": "Non-destructive ingest: hash, lock, catalogue, proxies, integrity verify",
+      "status": "PASS",
+      "wall_seconds": 10.5,
+      "checks": {
+        "items_catalogued": true,
+        "corrupt_file_flagged_not_fatal": true,
+        "originals_read_only": true,
+        "proxies_exist": true,
+        "gps_parsed": true,
+        "hdr_flagged": true,
+        "capture_time": true,
+        "verify_clean": true,
+        "tamper_detected": true
+      },
+      "seconds": 10.5,
+      "hdr_clip": {
+        "codec": "hevc",
+        "color_transfer": "arib-std-b67",
+        "color_primaries": "bt2020",
+        "bit_depth": null,
+        "fps": 30.0
+      }
+    },
+    {
+      "stage": "depth",
+      "title": "Photo -> depth map -> 2.5D parallax camera move",
+      "status": "PASS",
+      "wall_seconds": 18.0,
+      "frames": "72",
+      "codec": "prores HQ",
+      "depth_seconds": 1.5,
+      "render_seconds": 14.9,
+      "sec_per_frame_1080p": 0.21,
+      "evidence": "Shanghai_Film/13_Project_Documentation/pipeline_test/02_depth_parallax.jpg"
+    },
+    {
+      "stage": "faces",
+      "title": "Fetch public-domain test portraits (NASA)",
+      "status": "PASS",
+      "wall_seconds": 0.3,
+      "credit": "NASA (public domain); scikit-image astronaut (NASA, PD)"
+    },
+    {
+      "stage": "identity",
+      "title": "Identity-preservation gate (YuNet + SFace)",
+      "status": "PASS",
+      "wall_seconds": 3.6,
+      "results": {
+        "variant_graded.jpg": {
+          "similarity": 0.9005,
+          "verdict": "PASS",
+          "expected": "PASS",
+          "faces_in_image": 1,
+          "other_faces_max_sim": null
+        },
+        "collins_1998.jpg": {
+          "similarity": 0.9478,
+          "verdict": "PASS",
+          "expected": "PASS",
+          "faces_in_image": 1,
+          "other_faces_max_sim": null
+        },
+        "collins_2005_crew.jpg": {
+          "similarity": 0.6708,
+          "verdict": "PASS",
+          "expected": "PASS|REVIEW",
+          "faces_in_image": 7,
+          "other_faces_max_sim": 0.153
+        },
+        "variant_drift.png": {
+          "similarity": 0.9566,
+          "verdict": "PASS",
+          "expected": "REVIEW|FAIL|PASS",
+          "faces_in_image": 1,
+          "other_faces_max_sim": null
+        },
+        "other_hathaway.jpg": {
+          "similarity": 0.1176,
+          "verdict": "FAIL",
+          "expected": "FAIL",
+          "faces_in_image": 1,
+          "other_faces_max_sim": null
+        },
+        "other_meir.jpg": {
+          "similarity": 0.1807,
+          "verdict": "FAIL",
+          "expected": "FAIL",
+          "faces_in_image": 1,
+          "other_faces_max_sim": null
+        }
+      },
+      "drift_similarity_drop": -0.062,
+      "evidence": "Shanghai_Film/13_Project_Documentation/pipeline_test/04_identity_gate.jpg"
+    },
+    {
+      "stage": "matte",
+      "title": "Person matte (rembg BiRefNet-portrait) + composite onto plate",
+      "status": "PASS",
+      "wall_seconds": 36.9,
+      "seconds_512px": 36.6,
+      "alpha_coverage": 0.509,
+      "evidence": "Shanghai_Film/13_Project_Documentation/pipeline_test/05_matte_composite.jpg",
+      "note": "composite is a raw matte test; real shots need light/grade/grain matching and a contact shadow"
+    },
+    {
+      "stage": "blender",
+      "title": "Blender 5.2 LTS headless: HDRI-lit CGI on shadow catcher, composited (Cycles CPU)",
+      "status": "PASS",
+      "wall_seconds": 58.5,
+      "seconds_two_renders_720p_64spp": 56.7,
+      "shadow_pixels": 44108,
+      "plate_vs_blender_luma_ncc": 0.952,
+      "plate_vs_blender_shift_px": 0.031,
+      "evidence": "Shanghai_Film/13_Project_Documentation/pipeline_test/06_blender_cgi_integration.jpg"
+    },
+    {
+      "stage": "remotion",
+      "title": "Remotion kinetic title (ProRes 4444 alpha) composited over a shot",
+      "status": "PASS",
+      "wall_seconds": 21.5,
+      "pix_fmt": "yuva444p12le",
+      "render_seconds_96f_1080p": 12.7,
+      "evidence": "Shanghai_Film/13_Project_Documentation/pipeline_test/07_remotion_title_overlay.jpg"
+    },
+    {
+      "stage": "stabilize",
+      "title": "Stabilisation (vid.stab two-pass) with measured residual shake",
+      "status": "PASS",
+      "wall_seconds": 11.0,
+      "shake_px_per_frame_before": 10.64,
+      "shake_px_per_frame_after": 0.31,
+      "reduction": "97%",
+      "seconds": 9.7
+    },
+    {
+      "stage": "hdr",
+      "title": "HDR (HLG) phone footage -> Rec.709 SDR conform",
+      "status": "PASS",
+      "wall_seconds": 9.1,
+      "out_tags": "bt709/bt709/bt709 yuv422p10le",
+      "evidence": "Shanghai_Film/13_Project_Documentation/pipeline_test/08_hdr_to_sdr.jpg"
+    },
+    {
+      "stage": "audio",
+      "title": "Sound design: synthesized SFX, mix, master to -14 LUFS / -1 dBTP",
+      "status": "PASS",
+      "wall_seconds": 9.2,
+      "integrated_lufs": -14.0,
+      "lra_lu": 2.0,
+      "true_peak_dbtp": -2.8
+    },
+    {
+      "stage": "edit",
+      "title": "Conform mixed sources + transitions + speed ramp -> ProRes master; OTIO/EDL/FCPXML export",
+      "status": "PASS",
+      "wall_seconds": 35.8,
+      "audio_duration_s": 11.0,
+      "otio_timeline_duration_s": 11.0,
+      "duration_s": 11.0,
+      "expected_s": 11.0,
+      "video": "prores HQ yuv422p10le",
+      "render_seconds": 33.0,
+      "timeline_exports": [
+        "pipeline_test_seq.edl",
+        "pipeline_test_seq.fcpxml",
+        "pipeline_test_seq.otio",
+        "pipeline_test_seq.xml"
+      ],
+      "otio_reimport_items": 5,
+      "evidence": "Shanghai_Film/13_Project_Documentation/pipeline_test/09_edit_master_contact_sheet.jpg"
+    },
+    {
+      "stage": "grade",
+      "title": "Look development: authored .cube LUT applied with grain + vignette",
+      "status": "PASS",
+      "wall_seconds": 27.3,
+      "lut": "33^3 .cube (Resolve/Premiere/FCP compatible)",
+      "evidence": "Shanghai_Film/13_Project_Documentation/pipeline_test/10_grade_before_after.jpg"
+    },
+    {
+      "stage": "deliver",
+      "title": "Delivery encodes: 1080p H.264, 4K HEVC 10-bit, 9:16 vertical",
+      "status": "PASS",
+      "wall_seconds": 403.3,
+      "encode_seconds_for_11s": {
+        "hd_h264": 25.7,
+        "uhd_h265_10bit": 355.3,
+        "vertical_9x16_h264": 22.4
+      },
+      "files": {
+        "test_hd_h264.mp4": "9.5 MB",
+        "test_uhd_h265_10bit.mp4": "50.4 MB",
+        "test_vertical_9x16_h264.mp4": "9.7 MB"
+      },
+      "note": "4K file is an encode-path test from a 1080p timeline (upscaled), not a quality claim"
+    },
+    {
+      "stage": "qc",
+      "title": "Technical QC + VMAF + vendored ffmpeg-skill check/look",
+      "status": "PASS",
+      "wall_seconds": 15.7,
+      "vertical_qc": "PASS",
+      "vertical_sar": "SAR 1:1",
+      "studio_qc": "PASS",
+      "checks": {
+        "video stream": "PASS h264",
+        "frame rate": "PASS 24.000 fps, CFR",
+        "resolution": "PASS 1920x1080",
+        "colour tags": "PASS bt709/bt709/bt709",
+        "pixel format": "PASS yuv420p",
+        "square pixels": "PASS SAR 1:1",
+        "audio sample rate": "PASS 48000",
+        "integrated loudness": "PASS -14.0 LUFS (target -14.0)",
+        "true peak": "PASS -3.1 dBTP (ceiling -1.0)",
+        "loudness range": "PASS 0.9 LU",
+        "A/V duration": "PASS video 11.000s, audio 11.000s",
+        "black frames": "PASS 0 segments",
+        "frozen frames": "PASS 0 segments"
+      },
+      "vmaf_hd_vs_master": "97.142365",
+      "ffmpeg_skill_check_exit": 0,
+      "ffmpeg_skill_check": "{\n  \"status\": \"completed\",\n  \"output\": null,\n  \"dry_run\": false,\n  \"verified\": false,\n  \"commands\": 1,\n  \"lossless\": false,\n  \"platform\": \"youtube\",\n  \"checks\": [\n    {\n      \"check\": \"duration\",\n      \"status\": \"PASS\",\n      \"value\": \"11.00s\",\n      \"expected\": \"<= 43200s\",\n      \"fix\": \"choose what to keep with cut.py, or explicitly retime with fit.py --duration N --method speed\",\n      \"reason\"",
+      "ffmpeg_skill_look_exit": 0
+    },
+    {
+      "stage": "scenes",
+      "title": "Shot-boundary detection on a cut (PySceneDetect)",
+      "status": "PASS",
+      "wall_seconds": 2.7,
+      "shots_found": 3,
+      "cut_times_s": [
+        3.0,
+        8.0
+      ],
+      "hard_cuts_expected": [
+        3.0,
+        8.0
+      ],
+      "dissolve_5.5_6.0_detected": false,
+      "note": "ContentDetector finds hard cuts; dissolves need AdaptiveDetector/ThresholdDetector tuning"
+    },
+    {
+      "stage": "map",
+      "title": "Animated-map basis: OpenStreetMap buildings (Lujiazui) -> extruded 3D city in Blender",
+      "status": "PASS",
+      "wall_seconds": 12.7,
+      "buildings": 276,
+      "with_height": 53,
+      "tallest": [
+        "\u4e0a\u6d77\u4e2d\u5fc3\u5927\u53a6 632 m",
+        "\u4e0a\u6d77\u73af\u7403\u91d1\u878d\u4e2d\u5fc3 492 m",
+        "\u91d1\u8302\u5927\u53a6 420 m"
+      ],
+      "render_seconds": 12.7,
+      "licence": "ODbL: credit (c) OpenStreetMap contributors",
+      "evidence": "Shanghai_Film/13_Project_Documentation/pipeline_test/11_osm_city_3d.jpg"
+    }
+  ]
+}

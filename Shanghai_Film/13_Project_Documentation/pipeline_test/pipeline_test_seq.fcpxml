@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.8">
+    <resources>
+        <format id="r1" frameDuration="25/600s" name="FFVideoFormat1080p24.0"/>
+        <asset name="clip_A_titled" src="file:///home/user/starlight/studio/tests/out/clip_A_titled.mov" format="r1" id="r2" duration="3/1s" start="0s" hasAudio="0" hasVideo="1"/>
+        <asset name="clip_C_stab" src="file:///home/user/starlight/studio/tests/out/clip_C_stab.mp4" format="r1" id="r3" duration="4/1s" start="0s" hasAudio="0" hasVideo="1"/>
+        <asset name="clip_D_sdr" src="file:///home/user/starlight/studio/tests/out/clip_D_sdr.mov" format="r1" id="r4" duration="3/1s" start="0s" hasAudio="0" hasVideo="1"/>
+        <asset name="IMG_0002" src="file:///home/user/starlight/studio/tests/out/film_sandbox/02_Original_Videos/IMG_0002.MP4" format="r1" id="r5" duration="4/1s" start="0s" hasAudio="0" hasVideo="1"/>
+    </resources>
+    <asset-clip name="clip_A_titled" format="r1" ref="r2" duration="3/1s"/>
+    <asset-clip name="clip_C_stab" format="r1" ref="r3" duration="4/1s"/>
+    <asset-clip name="clip_D_sdr" format="r1" ref="r4" duration="3/1s"/>
+    <asset-clip name="IMG_0002" format="r1" ref="r5" duration="4/1s"/>
+    <project name="pipeline_test_seq" uid="">
+        <sequence duration="11/1s" format="r1">
+            <spine>
+                <clip name="clip_A_titled" offset="0s" duration="3/1s">
+                    <video offset="0s" ref="r2" duration="3/1s"/>
+                </clip>
+                <clip name="clip_C_stab" offset="3s" duration="5/2s" start="7/24s">
+                    <video offset="0s" ref="r3" duration="4/1s"/>
+                </clip>
+                <clip name="clip_D_sdr" offset="11/2s" duration="5/2s">
+                    <video offset="0s" ref="r4" duration="3/1s"/>
+                </clip>
+                <clip name="IMG_0002" offset="8s" duration="3/1s">
+                    <video offset="0s" ref="r5" duration="4/1s"/>
+                </clip>
+            </spine>
+        </sequence>
+    </project>
+</fcpxml>

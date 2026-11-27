@@ -1,0 +1,27 @@
+[
+  {
+    "file": "06_CGI_3D/hdri/shanghai_bund_4k.hdr",
+    "source": "https://polyhaven.com/a/shanghai_bund",
+    "licence": "CC0-1.0",
+    "author": "Poly Haven",
+    "kind": "hdri",
+    "fetched": "2026-11-27"
+  },
+  {
+    "file": "06_CGI_3D/hdri/shanghai_bund_8k.hdr",
+    "source": "https://polyhaven.com/a/shanghai_bund",
+    "licence": "CC0-1.0",
+    "author": "Poly Haven",
+    "kind": "hdri",
+    "fetched": "2026-11-27"
+  },
+  {
+    "file": "06_CGI_3D/lujiazui_osm_test.json",
+    "source": "https://www.openstreetmap.org",
+    "licence": "ODbL-1.0",
+    "author": "OpenStreetMap contributors",
+    "kind": "map data",
+    "credit_required": true,
+    "fetched": "2026-11-27"
+  }
+]
