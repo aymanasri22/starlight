@@ -165,7 +165,7 @@ def rings(fr, cx, cy, tau, aspect=0.42):
     rho = np.sqrt(dx * dx + dy * dy) + 1e-3
     th = np.arctan2(dy, dx)
     disp = np.zeros_like(rho)
-    for v, lam, a0, ph in ((150, 26, 7.0, 0.0), (112, 20, 5.0, 1.3), (80, 16, 3.5, 2.1), (55, 13, 2.2, 0.7)):
+    for v, lam, a0, ph in ((150, 26, 10.0, 0.0), (112, 20, 7.0, 1.3), (80, 16, 5.0, 2.1), (55, 13, 3.0, 0.7)):
         rk = v * tau * (1 + 0.05 * np.sin(3 * th + ph) + 0.03 * np.sin(5 * th + 2 * ph))
         env = np.exp(-((rho - rk) / (lam * 1.2)) ** 2)
         disp += a0 * np.exp(-tau / 0.8) * np.sin(2 * np.pi * (rho - rk) / lam) * env
@@ -245,7 +245,7 @@ def sh100():
     amp = 1 + 16 * persp ** 1.8
     waves = wave_fields(1500, SHOTS["SH100"])
     title = title_layer()
-    P = np.array([700, 1432], np.float32)                                     # reflected lower sphere (photo), measured
+    P = np.array([700, 1449], np.float32)                                     # reflected lower sphere centre (photo), measured on render
     S0 = OW / W
     sp0 = (P - np.array([W / 2, H / 2], np.float32)) * S0 + CTR
     t_hit, t_drop = 5.60, 5.05                                                 # 36.60 and 36.05 in film time
@@ -285,7 +285,7 @@ def sh100():
         if t_drop <= u < t_hit:                                                # the drop falls, accelerating
             tau = (u - t_drop) / (t_hit - t_drop)
             y = -50 + (TARGET[1] - 8 + 50) * tau * tau
-            fr = draw_drop(fr, TARGET[0], y, DROP_R, 2 * (TARGET[1] + 42) * tau / (t_hit - t_drop))
+            fr = draw_drop(fr, TARGET[0], y, DROP_R, 2 * (TARGET[1] + 42) * tau / (t_hit - t_drop), shutter=1 / 120)
         if u >= t_hit:                                                         # strike on the reflected sphere
             tau = u - t_hit
             fr = rings(fr, TARGET[0], TARGET[1], tau)
